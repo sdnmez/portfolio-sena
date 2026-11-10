@@ -1,0 +1,210 @@
+import type { Messages } from "./en";
+
+export const nl: Messages = {
+  meta: {
+    title: "Sena Donmez — Software Engineer & 2D/3D Artist",
+    description:
+      "Sena Donmez is een software engineer en 2D/3D-artiest uit België. Bouwt momenteel software bij Volvo Group en verkent illustratie, personages en 3D.",
+    ogAlt: "Sena Donmez — Software Engineer & 2D/3D Artist",
+  },
+  nav: {
+    work: "Ervaring",
+    art: "Kunst",
+    lab: "3D Lab",
+    path: "Traject",
+    about: "Over",
+    contact: "Contact",
+  },
+  common: {
+    available: "Fulltime bij Volvo Group",
+    basedIn: "Gevestigd in België",
+    menu: "Menu",
+    close: "Sluiten",
+    skip: "Naar de inhoud",
+    backToTop: "Terug naar boven",
+    language: "Taal",
+    email: "E-mail",
+    copyEmail: "Kopieer e-mail",
+    copied: "Gekopieerd",
+    viewWork: "Bekijk ervaring",
+    viewArt: "Bezoek de galerij",
+    letsTalk: "Zeg hallo",
+  },
+  cursor: {
+    view: "Bekijk",
+    drag: "Sleep",
+    open: "Open",
+  },
+  hero: {
+    eyebrow: "Portfolio / Vol. 01",
+    subtitle: "software engineer & 2D/3D-artiest",
+    intro:
+      "Ik ben Sena, een 23-jarige software engineer en artiest uit België. Doordeweeks bouw ik software bij Volvo Group; in mijn vrije uren teken ik, leer ik bij en ontmoet ik graag andere creatievelingen.",
+    ctaArt: "Bezoek de galerij",
+    ctaWork: "Bekijk ervaring",
+    stats: [
+      { value: "BE", label: "Gevestigd in België" },
+      { value: "’25", label: "Software engineer bij Volvo" },
+      { value: "’27", label: "Start 3D-lab" },
+    ],
+    marquee: [
+      "Software engineering",
+      "2D-illustratie",
+      "3D vanaf 2027",
+      "Inkt & papier",
+      "Open voor creatieve connecties",
+    ],
+    studioAlt: "Een aquarelpalet en een kleine karaktertekening op Sena's bureau",
+    studioCaption: "atelier, 2026",
+    catAlt: "Yuna, de kat van Sena, kijkt recht in de camera",
+    catName: "Yuna",
+    catCaption: "studio-assistent",
+  },
+  work: {
+    label: "02 — Ervaring",
+    title: "Software in productie.",
+    intro:
+      "Ik werk momenteel als software engineer bij Volvo Group Belgium. Ik zoek geen nieuwe job — dit is het werk dat de schetsboeken betaalt.",
+    currentLabel: "Huidige rol",
+    role: "Software Engineer",
+    company: "Volvo Group Belgium",
+    period: "September 2025 — heden",
+    location: "België",
+    description:
+      "Fulltime in een internationale industriële omgeving, software bouwen en onderhouden met een team.",
+    projectsLabel: "Persoonlijke projecten",
+    projectsEmpty:
+      "Nog geen publieke case studies. De eerste persoonlijke projecten verschijnen hier zodra ze klaar zijn.",
+    note: "Open om andere artiesten en creatievelingen te ontmoeten.",
+    contactCta: "Zeg hallo",
+  },
+  art: {
+    label: "03 — Galerij",
+    title: "Een klein stapeltje afgewerkte platen.",
+    intro:
+      "Twee afgewerkte platen van de tekentafel: anime fan art en een inktstudie. Er komen meer platen bij zodra ze uit het schetsboek komen.",
+    filters: {
+      all: "Alles",
+      anime: "Anime",
+      sketch: "Schetsen",
+      digital: "Digitaal",
+    },
+    empty: "Galerij opent binnenkort.",
+    emptyBody:
+      "Ik selecteer en fotografeer nu de eerste werken. Ondertussen vind je schetsen en work-in-progress op Instagram.",
+    noResults: "Nog geen platen in deze categorie.",
+    view: "Bekijk",
+    close: "Sluiten",
+    next: "Volgende",
+    prev: "Vorige",
+    medium: "Medium",
+    year: "Jaar",
+    plate: "Plaat",
+    note: "Geselecteerde platen / 2026",
+    hint: "Gebruik ← → om te bladeren",
+    descriptionLabel: "Over dit werk",
+    filterLabel: "Filter werk",
+  },
+  lab: {
+    label: "04 — 3D Lab",
+    title: "Het 3D-lab opent in 2027.",
+    intro:
+      "Ik ben van plan om in 2027 te starten met 3D-modellering en animatie. Tot dan is dit een kleine interactieve preview van de ruimte waar ik naartoe ga — geen afgewerkt model.",
+    dragHint: "Sleep om te draaien",
+    tabs: {
+      orbit: "Orbit",
+      form: "Vorm",
+      bust: "Buste",
+    },
+    statuses: {
+      concept: "Concept",
+      inProgress: "Bezig",
+      soon: "Gepland",
+    },
+    viewerLabel: "Procedurele preview / 2027",
+    note: "De eerste echte studies verschijnen hier in 2027.",
+    fallback: "WebGL-preview niet beschikbaar",
+    selectLabel: "Geplande studie",
+  },
+  path: {
+    label: "05 — Traject",
+    title: "Van wiskunde naar maken.",
+    intro:
+      "Een wetenschappelijk traject, een softwarecarrière en een tekenpraktijk die blijft groeien. De volgende stop is 3D.",
+    tabs: {
+      study: "Studies",
+      work: "Werk",
+    },
+    studyTitle: "Studies",
+    workTitle: "Werk",
+    now: "Nu",
+    note: "De korte versie. Vraag me naar de rest.",
+  },
+  about: {
+    label: "06 — Over",
+    title: "Ingenieur overdag, artiest van instinct.",
+    paragraphs: [
+      "Ik ben Sena Donmez, een 23-jarige software engineer en artiest uit België. Ik werk momenteel fulltime bij Volvo Group en teken daarbuiten, bestudeer personages en volg alles wat mijn nieuwsgierigheid prikkelt.",
+      "Ik studeerde Toegepaste Informatica aan Hogeschool Gent van 2022 tot 2025, na een wetenschaps-wiskunderichting in het middelbaar. Sinds september 2025 werk ik als software engineer. Ik zoek geen nieuwe job, maar sta wel open om andere artiesten en creatievelingen te ontmoeten — zeker nu ik in 2027 met 3D begin.",
+    ],
+    facts: [
+      { label: "Focus", value: "Software engineering, 2D-kunst & 3D (vanaf 2027)" },
+      { label: "Opleiding", value: "Toegepaste Informatica, Hogeschool Gent (2022–2025)" },
+      { label: "Momenteel", value: "Software Engineer bij Volvo Group Belgium" },
+      { label: "Locatie", value: "België" },
+    ],
+    currentlyLabel: "Momenteel",
+    currently: "Software Engineer bij Volvo Group Belgium",
+    caption: "Portret / Sena Donmez",
+    portraitAlt: "Portret van Sena Donmez",
+    note: "nieuwsgierig van nature",
+    skillsLabel: "Toolkit",
+    skillsTitle: "Gereedschap voor logica en gevoel.",
+  },
+  skills: {
+    engineering: {
+      title: "Engineering",
+      description:
+        "De analytische kant: software bouwen, systemen begrijpen en problemen oplossen.",
+      items: [
+        "Software engineering",
+        "Applicatieontwikkeling",
+        "Probleemoplossing",
+        "Samenwerking",
+      ],
+    },
+    creative: {
+      title: "2D-kunst",
+      description: "De visuele kant: personages, illustratie en verhaal.",
+      items: ["Illustratie", "Personagekunst", "Digitale kunst", "Visueel verhaal"],
+    },
+    art: {
+      title: "3D — vanaf 2027",
+      description: "Het volgende hoofdstuk: modelleren, licht en animatie.",
+      items: ["3D-modellering", "Animatie", "Belichting", "Ruimtelijk ontwerp"],
+    },
+    learningLabel: "Volgende stap",
+    learning: "3D-modellering & animatie vanaf 2027",
+  },
+  contact: {
+    label: "07 — Contact",
+    title: "Laten we kennismaken.",
+    intro:
+      "Ik werk momenteel fulltime bij Volvo Group Belgium en zoek geen nieuwe rol. Ik sta wel open om andere artiesten en creatievelingen te ontmoeten — zeg hallo, deel werk of praat mee over 2D, 3D en alles daartussen.",
+    emailLabel: "E-mail me",
+    socialsLabel: "Elders",
+    status: "Fulltime bij Volvo Group",
+    commissionStatus: "Open voor creatieve connecties",
+    note: "Zeg hallo. Ik bijt niet.",
+  },
+  footer: {
+    built: "Gebouwd met Next.js, Three.js & Motion.",
+    rights: "Alle rechten voorbehouden.",
+    backToTop: "Terug naar boven",
+    volume: "Inkt / Vol. 01",
+  },
+  language: {
+    en: "EN",
+    nl: "NL",
+  },
+};

@@ -1,0 +1,210 @@
+export const en = {
+  meta: {
+    title: "Sena Donmez — Software Engineer & 2D/3D Artist",
+    description:
+      "Sena Donmez is a software engineer and 2D/3D artist from Belgium. Currently building software at Volvo Group and exploring illustration, character art and 3D.",
+    ogAlt: "Sena Donmez — Software Engineer & 2D/3D Artist",
+  },
+  nav: {
+    work: "Experience",
+    art: "Art",
+    lab: "3D Lab",
+    path: "Path",
+    about: "About",
+    contact: "Contact",
+  },
+  common: {
+    available: "Full-time at Volvo Group",
+    basedIn: "Based in Belgium",
+    menu: "Menu",
+    close: "Close",
+    skip: "Skip to content",
+    backToTop: "Back to top",
+    language: "Language",
+    email: "Email",
+    copyEmail: "Copy email",
+    copied: "Copied",
+    viewWork: "View experience",
+    viewArt: "Visit the gallery",
+    letsTalk: "Say hello",
+  },
+  cursor: {
+    view: "View",
+    drag: "Drag",
+    open: "Open",
+  },
+  hero: {
+    eyebrow: "Portfolio / Vol. 01",
+    subtitle: "software engineer & 2D/3D artist",
+    intro:
+      "I'm Sena, a 23-year-old software engineer and artist from Belgium. I spend my weekdays building software at Volvo Group and my free hours drawing, learning and meeting other creatives.",
+    ctaArt: "Visit the gallery",
+    ctaWork: "View experience",
+    stats: [
+      { value: "BE", label: "Based in Belgium" },
+      { value: "’25", label: "Software engineer at Volvo" },
+      { value: "’27", label: "3D lab starting" },
+    ],
+    marquee: [
+      "Software engineering",
+      "2D illustration",
+      "3D from 2027",
+      "Ink & paper",
+      "Open to creative connections",
+    ],
+    studioAlt: "A watercolour palette and a small character drawing on Sena's desk",
+    studioCaption: "studio, 2026",
+    catAlt: "Yuna, Sena's tortoiseshell cat, looking at the camera",
+    catName: "Yuna",
+    catCaption: "studio assistant",
+  },
+  work: {
+    label: "02 — Experience",
+    title: "Software in production.",
+    intro:
+      "I'm currently a software engineer at Volvo Group Belgium. I'm not looking for a new role — this is the work that pays for the sketchbooks.",
+    currentLabel: "Current role",
+    role: "Software Engineer",
+    company: "Volvo Group Belgium",
+    period: "September 2025 — present",
+    location: "Belgium",
+    description:
+      "Working full-time in a global industrial environment, building and maintaining software with a team.",
+    projectsLabel: "Personal projects",
+    projectsEmpty:
+      "No public case studies yet. The first personal projects will appear here when they're ready.",
+    note: "Open to meeting other artists and creatives.",
+    contactCta: "Say hello",
+  },
+  art: {
+    label: "03 — Gallery",
+    title: "A small stack of finished plates.",
+    intro:
+      "Two finished pieces from the desk: anime fan art and an ink study. More plates will join them as they leave the sketchbook.",
+    filters: {
+      all: "All",
+      anime: "Anime",
+      sketch: "Sketches",
+      digital: "Digital",
+    },
+    empty: "Gallery opening soon.",
+    emptyBody:
+      "I'm selecting and photographing the first pieces now. In the meantime, you can find sketches and works in progress on Instagram.",
+    noResults: "No plates in this category yet.",
+    view: "View",
+    close: "Close",
+    next: "Next",
+    prev: "Previous",
+    medium: "Medium",
+    year: "Year",
+    plate: "Plate",
+    note: "Selected plates / 2026",
+    hint: "Use ← → to browse",
+    descriptionLabel: "About this piece",
+    filterLabel: "Filter artwork",
+  },
+  lab: {
+    label: "04 — 3D Lab",
+    title: "The 3D lab opens in 2027.",
+    intro:
+      "I'm planning to start 3D modelling and animation in 2027. Until then, this is a small interactive preview of the space I'm heading into — not a finished model.",
+    dragHint: "Drag to rotate",
+    tabs: {
+      orbit: "Orbit",
+      form: "Form",
+      bust: "Bust",
+    },
+    statuses: {
+      concept: "Concept",
+      inProgress: "In progress",
+      soon: "Planned",
+    },
+    viewerLabel: "Procedural preview / 2027",
+    note: "The first real studies will land here in 2027.",
+    fallback: "WebGL preview unavailable",
+    selectLabel: "Planned study",
+  },
+  path: {
+    label: "05 — Path",
+    title: "From maths to making.",
+    intro:
+      "A science track, a software career and a drawing practice that keeps growing. The next stop is 3D.",
+    tabs: {
+      study: "Study",
+      work: "Work",
+    },
+    studyTitle: "Study",
+    workTitle: "Work",
+    now: "Now",
+    note: "The short version. Ask me about the rest.",
+  },
+  about: {
+    label: "06 — About",
+    title: "Engineer by day, artist by instinct.",
+    paragraphs: [
+      "I'm Sena Donmez, a 23-year-old software engineer and artist from Belgium. I currently work full-time at Volvo Group, and outside of work I draw, study characters and follow whatever catches my curiosity.",
+      "I studied Applied Computer Science at Hogeschool Gent from 2022 to 2025, after a science and maths track in secondary school. I've been working as a software engineer since September 2025. I'm not looking for a new job, but I'm open to meeting other artists and creatives — especially as I start exploring 3D in 2027.",
+    ],
+    facts: [
+      { label: "Focus", value: "Software engineering, 2D art & 3D (from 2027)" },
+      { label: "Education", value: "Applied Computer Science, Hogeschool Gent (2022–2025)" },
+      { label: "Currently", value: "Software Engineer at Volvo Group Belgium" },
+      { label: "Location", value: "Belgium" },
+    ],
+    currentlyLabel: "Currently",
+    currently: "Software Engineer at Volvo Group Belgium",
+    caption: "Portrait / Sena Donmez",
+    portraitAlt: "Portrait of Sena Donmez",
+    note: "curious by nature",
+    skillsLabel: "Toolkit",
+    skillsTitle: "Tools for logic and feeling.",
+  },
+  skills: {
+    engineering: {
+      title: "Engineering",
+      description:
+        "The analytical side: building software, understanding systems and solving problems.",
+      items: [
+        "Software engineering",
+        "Application development",
+        "Problem solving",
+        "Collaboration",
+      ],
+    },
+    creative: {
+      title: "2D art",
+      description: "The visual side: characters, illustration and storytelling.",
+      items: ["Illustration", "Character art", "Digital art", "Visual storytelling"],
+    },
+    art: {
+      title: "3D — from 2027",
+      description: "The next chapter: modelling, lighting and animation.",
+      items: ["3D modelling", "Animation", "Lighting", "Spatial design"],
+    },
+    learningLabel: "Next up",
+    learning: "3D modelling & animation from 2027",
+  },
+  contact: {
+    label: "07 — Contact",
+    title: "Let's meet.",
+    intro:
+      "I'm currently full-time at Volvo Group Belgium, so I'm not looking for a new role. I am open to meeting other artists and creatives — say hi, share work, or talk about 2D, 3D and everything in between.",
+    emailLabel: "Email me",
+    socialsLabel: "Elsewhere",
+    status: "Full-time at Volvo Group",
+    commissionStatus: "Open to creative connections",
+    note: "Say hi. I don't bite.",
+  },
+  footer: {
+    built: "Built with Next.js, Three.js & Motion.",
+    rights: "All rights reserved.",
+    backToTop: "Back to top",
+    volume: "Ink / Vol. 01",
+  },
+  language: {
+    en: "EN",
+    nl: "NL",
+  },
+};
+
+export type Messages = typeof en;
